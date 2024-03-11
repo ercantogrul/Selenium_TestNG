@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Multiple Class Running" >
+        <classes>
+            <class name="test.C11_XMLFilesHierarchy"></class>
+            <class name="test.C10_SoftAssertion"></class>
+            <class name="test.C09_HardSoftAssertion"></class>
+            <class name="test.C08_AssertionInfo"></class>
+        </classes>
+    </test>
+    <test name="Multiple Package Running" >
+       <packages>
+           <package name="test"></package>
+           <package name="homeworks"></package>
+       </packages>
+    </test>
+</suite>

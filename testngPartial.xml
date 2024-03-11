@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/etogr/IdeaProjects/Selenium3_TestNG/src/test/java/test/C01_Annotations.java">
+        <classes>
+            <class name="test.C01_Annotations">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/etogr/IdeaProjects/Selenium3_TestNG/src/test/java/test/C02_Priority.java">
+        <classes>
+            <class name="test.C02_Priority">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                    <include name="test5"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/etogr/IdeaProjects/Selenium3_TestNG/src/test/java/test/C05_Enabled.java">
+        <classes>
+            <class name="test.C05_Enabled">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                    <include name="test5"/>
+                    <include name="test6"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/etogr/IdeaProjects/Selenium3_TestNG/src/test/java/test/C07_Description.java">
+        <classes>
+            <class name="test.C07_Description">
+                <methods>
+                    <include name="testCase1"/>
+                    <include name="testCase2"/>
+                    <include name="testCase3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/etogr/IdeaProjects/Selenium3_TestNG/src/test/java/test/C08_AssertionInfo.java">
+        <classes>
+            <class name="test.C08_AssertionInfo">
+                <methods>
+                    <include name="hard"/>
+                    <include name="soft"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/etogr/IdeaProjects/Selenium3_TestNG/src/test/java/test/C09_HardSoftAssertion.java">
+        <classes>
+            <class name="test.C09_HardSoftAssertion">
+                <methods>
+                    <include name="testLoginHard"/>
+                    <include name="testLoginSoft"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

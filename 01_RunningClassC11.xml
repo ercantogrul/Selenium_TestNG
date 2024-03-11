@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/etogr/IdeaProjects/Selenium3_TestNG/src/test/java/test/C11_XMLFilesHierarchy.java">
+        <classes>
+            <class name="test.C11_XMLFilesHierarchy">
+                <methods>
+                    <include name="test1"/>
+                    <exclude name="test2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

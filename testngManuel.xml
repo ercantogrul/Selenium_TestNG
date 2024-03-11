@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="manuel test1">
+        <classes>
+            <class name="test.C08_AssertionInfo"></class>
+            <class name="test.C09_HardSoftAssertion"></class>
+        </classes>
+    </test>
+    <test name="manuel test2">
+        <classes>
+            <class name="test.C10_SoftAssertion"></class>
+        </classes>
+    </test>
+</suite>
+
+
+
+        <!--yorum yazmak icin  -->
+        <!-- Bir xml dosyasi ile projemizden istedigimiz testleri, package'leri
+            class'lari veya test method'larini calistirabiliriz
+            Bunun icin yapmamiz gereken; suite'den baslayip
+            test hiyerarsisine uygun olarak calisacak tum testleri
+            xml formatinda yazmamizdir.
+            Eger istedigimiz tum testlere ulasmak icin birden fazla hiyerarsi olusturmamiz gerekirse
+            sonraki hiyerarsileri, uygun adimdan baslatmamiz gerekir
+            -->
+        <!--vpd-->
+
+        <!--       eger bir test icerisinde birden fazla hiyerarsi olusturmamiz gerekirse
+               uygun kirilma noktasi belirleyip oradan hiyerarsiyi yeniden olusturabiliriz-->
