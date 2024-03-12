@@ -9,8 +9,12 @@
                 <exclude name="sanity"></exclude>       <!--sest 'sanity' kosmaz  (exclude : kesti kosturmaz, exclude varsa include pasif olur)-->
             </run>
         </groups>
-        <classes>
-            <class name="test.C12_XMLFilesGroups"></class>
-        </classes>
+      <classes>
+         <class name="test.C12_XMLFilesGroups">
+             <methods>
+                 <exclude name="test5"></exclude>
+             </methods>
+         </class>
+      </classes>
     </test>
 </suite>

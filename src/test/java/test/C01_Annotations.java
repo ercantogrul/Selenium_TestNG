@@ -24,6 +24,10 @@ public class C01_Annotations {
     public void test2(){
         System.out.println("test2 çalıştı");
     }
+    @Test
+    public void test3(){
+        System.out.println("test2 çalıştı");
+    }
 
     @BeforeMethod
     public void beforeMethod() {

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="ParameterTest">
+        <parameter name="isim" value="DE3"></parameter>
+        <parameter name="soyad" value="Tester"></parameter>
+        <parameter name="yas" value="40"></parameter>
+        <classes>
+            <class name="test.C13_UsingParameters"></class>
+        </classes>
+
+    </test>
+</suite>

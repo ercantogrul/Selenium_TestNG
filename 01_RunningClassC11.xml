@@ -6,8 +6,8 @@
         <classes>
             <class name="test.C11_XMLFilesHierarchy">
                 <methods>
-                    <include name="test1"/>
-                    <exclude name="test2"/>
+                    <include name="test1"/>  <!--sadece test b1 kosar (include)  -->
+                    <exclude name="test2"/>  <!--stest 2 kosmaz  (exclude : kesti kosturmaz, exclude varsa include pasif olur)-->
                 </methods>
             </class>
         </classes>

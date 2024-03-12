@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Runnings Groups1">   <!-- test gruplarinin ismi ayri olmasi gerekir. 3 fakli test takimi olusturulabilecegi gibi tek bir takim icerisindede kosturulabilir-->
+        <groups>
+            <run>   <!--  -->
+                <include name="smoke"></include>
+                <include name="regression"></include>
+                <include name="sanity"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="test.C12_XMLFilesGroups"></class>
+        </classes>
+    </test>
+    <test name="Runnings Groups2">
+        <groups>
+            <run>
+                <include name="regression"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="test.C12_XMLFilesGroups"></class>
+        </classes>
+    </test>
+    <test name="Runnings Groups3">
+        <groups>
+            <run>
+                <include name="sanity"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="test.C12_XMLFilesGroups"></class>
+        </classes>
+    </test>
+</suite>
