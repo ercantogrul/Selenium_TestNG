@@ -42,7 +42,7 @@ public class C10_SoftAssertion extends TestBase {
         //Verify error message text is Your username is invalid!
         sa.assertEquals(driver.findElement(By.cssSelector("div#error")).getText(), "Your username is invalid!");
 
-        sa.assertAll();
+        sa.assertAll();  // en sonda bu satiri yazmak zorundayiz ki sofr assertionlar calissin
 
     }
 }

@@ -72,14 +72,17 @@ public class C01_Annotations {
         /*
     before suit
     before test
+           bu araya gourup da gelebilir
     before class
-    before method----
-    test case1
-    after method
-    before method
-    test case2
-    after method-----
+        before method----
+          test case1
+        after method
+
+        before method-----
+          test case2
+        after method-----
     after class
+          bu araya gourup da gelebilir
     after test
     after suit
      */

@@ -8,8 +8,8 @@ import org.testng.asserts.SoftAssert;
 public class C08_AssertionInfo {
     @Test
     public void hard(){
-        //hard assertionlar Assert classi uzerinden cagirdigimiz ve biildigimiz methodlardir..
-        //test executioni sirasinda herhangi bir assertion failed olursa trest execution o anda durur
+        //hard assertionlar Assert classi uzerinden cagirdigimiz ve bildigimiz methodlardir..
+        //test executioni sirasinda herhangi bir assertion failed olursa test execution o anda durur
         System.out.println("checcking 1=2");
         Assert.assertEquals(1,2);
 
@@ -42,6 +42,9 @@ public class C08_AssertionInfo {
         System.out.println("bu yazi konsolda cikacak mi ?");//bu yazi cikmaz ..
 
         //assertionlarda hata olursa java hata olarak assertAll kodunda hata verir.
+
+        //**hangi assetion da hata oldugunu kodlara bakarar gerekirse bazi assertion lari hard yaparak bulabliliriz.
+        //cünkü direk hangi assertion da hata verdigi belli olmaz
 
     }
 }

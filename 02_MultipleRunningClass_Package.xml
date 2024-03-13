@@ -5,14 +5,20 @@
         <classes>
             <class name="test.C11_XMLFilesHierarchy"></class>
             <class name="test.C10_SoftAssertion"></class>
+        </classes>
+    </test>
+    <test name="Multiple Class Running2" >
+        <classes>
             <class name="test.C09_HardSoftAssertion"></class>
             <class name="test.C08_AssertionInfo"></class>
         </classes>
     </test>
     <test name="Multiple Package Running" >
        <packages>
-           <package name="test"></package>
-           <package name="homeworks"></package>
+           <package name="test">
+               <exclude name="test"></exclude>
+           </package>
+           <package name="Hworks"></package>
        </packages>
     </test>
 </suite>

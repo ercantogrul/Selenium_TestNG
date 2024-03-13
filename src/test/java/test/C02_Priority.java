@@ -15,7 +15,7 @@ public class C02_Priority {
     @Test(priority = -100)
     void test1(){System.out.println("test1 run");}
 
-    @Test//default priority :0
+    @Test(priority = 3)
     void test2(){System.out.println("test2 run");}
 
     @Test(priority = 7)
