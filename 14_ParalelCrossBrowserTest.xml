@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests"> <!-- burada -[parallel="tests"]- yazilarak test takimlari paralel kosturuldu,
+                                                tread sayisi belirtmedigimiz icin default olarak 5 thread calisir-->
+    <test name="CrossBrowserTest">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="test.C20_CrossBrowserTest">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="CrossBrowserTest2">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="test.C20_CrossBrowserTest">
+                <methods>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

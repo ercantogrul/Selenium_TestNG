@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Runnings Groups">
+        <groups>
+            <run>
+                <include name="smoke"></include>
+                  <!--Groups olarak smoke etiketlenen bütün testler kosaturulur (include)  -->
+                 <!-- (exclude : kesti kosturmaz, exclude varsa include pasif olur)-->
+            </run>
+        </groups>
+       <packages>
+           <!-- hangi clas veya methodlar kosturulacaksa buraya yazilir-->
+           <package name="test"></package>
+           <package name="smokeTest"></package>
+       </packages>
+
+    </test>
+</suite>

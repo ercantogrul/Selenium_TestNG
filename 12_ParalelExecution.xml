@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="3">  <!-- burada test takimi paralel kosturulmus-->
+    <test name="Parallel Test1">
+        <classes>
+            <class name="test.C02_Priority"></class>
+        </classes>
+    </test>
+    <test name="Parallel Test2">
+        <classes>
+            <class name="test.C09_HardSoftAssertion"></class>
+        </classes>
+    </test>
+    <test name="Parallel Test3">
+        <classes>
+            <class name="test.C04_DependsOnMethods"></class>
+        </classes>
+    </test>
+</suite>

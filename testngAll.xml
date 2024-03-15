@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/etogr/IdeaProjects/Selenium3_TestNG">
         <classes>
-            <class name="Hworks.interdependent">
+            <class name="Hworks.HW33_DependsOnMethods">
                 <methods>
                     <include name="facebook"/>
                 </methods>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="CrossBrowserTest1">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="titel" value="chrome"></parameter>
+        <parameter name="text" value="chrome"></parameter>
+        <classes>
+            <class name="mentoring.T8_CrossBrowsing_2"></class>
+        </classes>
+    </test>
+    <test name="CrossBrowserTest2">
+        <parameter name="title" value="firefox"></parameter>
+        <parameter name="text" value="firefox"></parameter>
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="mentoring.T8_CrossBrowsing_2"></class>
+        </classes>
+    </test>
+    <test name="CrossBrowserTest3">
+        <parameter name="title" value="edge"></parameter>
+        <parameter name="text" value="edge"></parameter>
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="mentoring.T8_CrossBrowsing_2"></class>
+        </classes>
+    </test>
+
+</suite>

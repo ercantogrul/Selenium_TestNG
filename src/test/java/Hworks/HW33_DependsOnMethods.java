@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class interdependent {
+public class HW33_DependsOnMethods {
         /*
 Create tests that depend on each other
 Create beforeClass and set up settings.
