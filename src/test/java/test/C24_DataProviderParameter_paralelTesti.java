@@ -16,7 +16,7 @@ public class C24_DataProviderParameter_paralelTesti {
     //Login with negative credentilas by Data Provider.
     //Then assert that ‘’Invalid credentials’’ is displayed.
 
-    @Test(dataProvider = "getData")
+    @Test(dataProvider = "getData", invocationCount = 2) // [invocationCount = 2] bu tessti kac defa tekrarlayacagimizi veriri
     public void test(String username, String password){
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
