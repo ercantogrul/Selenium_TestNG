@@ -21,6 +21,7 @@ public class C24_DataProviderParameter_paralelTesti {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
         driver.get("https://opensource-demo.orangehrmlive.com/");
         driver.findElement(By.xpath("//input[@name='username']")).sendKeys(username);
         driver.findElement(By.xpath("//input[@type='password']")).sendKeys(password);

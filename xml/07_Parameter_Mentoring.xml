@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="C06_DataProvider1">
+        <parameter name="name" value="Ercan"></parameter>
+        <parameter name="lastname" value="tgrl"></parameter>
+        <parameter name="age" value="45"></parameter>
+        <classes>
+            <class name="mentoring.T6_C18_Parameter"></class>
+        </classes>
+    </test>
+    <test name="C06_DataProvider2">
+        <parameter name="name" value="Beyza"></parameter>
+        <parameter name="lastname" value="tgrl"></parameter>
+        <parameter name="age" value="40"></parameter>
+        <classes>
+            <class name="mentoring.T6_C18_Parameter"></class>
+        </classes>
+    </test>
+</suite>

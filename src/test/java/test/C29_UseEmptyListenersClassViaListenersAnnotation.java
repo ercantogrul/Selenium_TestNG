@@ -4,10 +4,11 @@ import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import utilities.EmptyListeners;
 
-@Listeners(utilities.Listeners.class)   //1.yöntemle [@Listeners(utilities.Listeners.class) ile] Listeners classımızı Test Classımıza bağladık
+@Listeners(utilities.EmptyListeners.class)   //1.yöntemle [@Listeners(utilities.EmptyListeners.class) ile] Listeners classımızı Test Classımıxa bağladık
                                         // Classımızı run ettiğimizde raporlara ulaşırız.
-public class C28_UseListenersClassViaListenersAnnotation {
+public class C29_UseEmptyListenersClassViaListenersAnnotation {
     @Test(dependsOnMethods = "successTest") // successTest testi önce kosmali ki bunuda (dependsOnMethods = "successTest") ile yaptik
     // successfulTest methodundaki [context.getAttribute("data");] veriable si ni kulanabilelim
     public void successfulTest(ITestContext context){
@@ -23,7 +24,7 @@ public class C28_UseListenersClassViaListenersAnnotation {
 
     @Test (timeOut = 1000)
     public void failedTestTimeout() throws InterruptedException {
-        Thread.sleep(1001);
+        Thread.sleep(2000);
         System.out.println("I'm inside the failedTestTimeout test method");
     }
 

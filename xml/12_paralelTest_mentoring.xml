@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="methods" thread-count="3"> <!-- burada test takimi paralel kosturulmus
+iki test takimi var ve ayni anda kosturuldular veya classes yazsak birden cok Class i ayni anda kosturur,
+veya methods yazsak bir class icinde birden cok methodu ayni anda kostururuz-->
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/etogr/IdeaProjects/Selenium3_TestNG/src/test/java/mentoring/T9_ParalelTest.java">
+        <classes>
+            <class name="mentoring.T9_ParalelTest">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

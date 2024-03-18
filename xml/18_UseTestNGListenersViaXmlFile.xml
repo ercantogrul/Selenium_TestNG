@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2"></listener> <!--//TestNG hazır listeners'ları ile çıkan ekrandan bağlayabiliriz. -->
+        <listener class-name="org.testng.reporters.FailedReporter"></listener> <!-- -->
+        <listener class-name="org.testng.reporters.TestHTMLReporter"></listener> <!-- -->
+        <listener class-name="org.testng.reporters.JUnitReportReporter"></listener> <!-- -->
+        <listener class-name="utilities.Listeners"></listener> <!-- -->
+
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/etogr/IdeaProjects/Selenium3_TestNG/src/test/java/test/C31_UseListenersClassViaXmlFile.java">
+        <classes>
+            <class name="test.C09_HardSoftAssertion"></class>
+            <class name="test.C18_DataProvider"></class>
+        </classes>
+    </test>
+</suite>

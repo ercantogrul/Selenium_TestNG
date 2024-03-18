@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="utilities.Listeners"></listener> <!-- //3.YÖNTEM
+    //Listeners Classı ile Test Classımızı XMLFile sayesinde <Listeners> tagiyle yapıyoruz-->
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/etogr/IdeaProjects/Selenium3_TestNG/src/test/java/test/C31_UseListenersClassViaXmlFile.java">
+        <classes>
+            <class name="test.C31_UseListenersClassViaXmlFile"></class>
+        </classes>
+    </test>
+</suite>

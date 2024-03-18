@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Paralel Testing" parallel="methods" thread-count="4">  <!--parallel="methods" bunu test seviyesindede yazabilirdik.
+ayrica thread-count="10" diyerek thread sayisini belirleyebiliriz, yazmazsak default 5 tanedir-->
+        <classes>
+            <class name="test.C22_ParallelTest2"></class>
+        </classes>
+    </test>
+</suite>

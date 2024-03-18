@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Allure Test Suite">
+    <test name="Allure Test">
+        <classes>
+            <class name="test.C27_AllureTest"></class>
+        </classes>
+    </test>
+</suite>
