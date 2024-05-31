@@ -11,9 +11,11 @@ public class C08_AssertionInfo {
         //hard assertionlar Assert classi uzerinden cagirdigimiz ve bildigimiz methodlardir..
         //test executioni sirasinda herhangi bir assertion failed olursa test execution o anda durur
         System.out.println("checcking 1=2");
+
         Assert.assertEquals(1,2);
 
         System.out.println("checcking 1=1");
+
         Assert.assertEquals(1,1); // passed
 
 
