@@ -40,8 +40,8 @@ public class C08_AssertionInfo {
 
         sa.assertAll();    // assertionslardan herhangi biri patladiginda java hata satiri olarak assertAll()'u gösterir
 
-
         System.out.println("bu yazi konsolda cikacak mi ?");//bu yazi cikmaz ..
+
 
         //assertionlarda hata olursa java hata olarak assertAll kodunda hata verir.
 
