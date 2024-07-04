@@ -34,6 +34,7 @@ public class JSUtils {
     public static void scrollIntoViewJS(WebDriver driver, WebElement element) {
         JavascriptExecutor jsexecutor = (JavascriptExecutor) driver;
         jsexecutor.executeScript("arguments[0].scrollIntoView(true);", element);
+
     }
 
     public static void changeBackgroundColorByJS(WebDriver driver, String color, WebElement element) {

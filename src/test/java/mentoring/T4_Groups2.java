@@ -16,6 +16,7 @@ public class T4_Groups2 extends TestBase {
         System.out.println("Test 1 -A başladı ");
         Assert.assertTrue(false);//Fail Hard Assert olduğunda sonraki komutlar çalışmaz
         System.out.println("Test 1 fail");
+
     }
 
     @Test()

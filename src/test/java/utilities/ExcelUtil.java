@@ -28,6 +28,7 @@ public class ExcelUtil {
             Assert.assertNotNull(workSheet, "Worksheet: \"" + sheetName + "\" was not found\n");
         } catch (Exception e) {
             throw new RuntimeException(e);
+
         }
     }
     //This will get the list of the data in the excel file
