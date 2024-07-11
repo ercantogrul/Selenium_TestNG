@@ -22,6 +22,7 @@ public class C17_DataProviderFaker extends TestBase {
 
         WebElement invalidWE = driver.findElement(By.xpath("//p[text()='Invalid credentials']"));
         Assert.assertTrue(invalidWE.isDisplayed());
+
     }
     @DataProvider
     public Object[][] getData(){
@@ -31,6 +32,7 @@ public class C17_DataProviderFaker extends TestBase {
         data[1]= new Object[]{faker.name().username(), faker.internet().password()};
         data[2]= new Object[]{faker.name().username(), faker.internet().password()};
         return data;
+
     }
     @Test(dataProvider = "getData1")
     public void test1(String username, String password){

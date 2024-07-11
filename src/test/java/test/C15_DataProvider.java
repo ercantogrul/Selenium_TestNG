@@ -38,12 +38,14 @@ public class C15_DataProvider extends TestBase {
                 {"javascript"},
                 {"pyhton"}
         };
+
     }
     @Test(dataProvider = "aranacakKelime") // ya da DataProvider a verilen isim ile iliskilendirildi
     public void test2(String kelime){
         driver.get("https://www.amazon.com/");
         ReusableMethods.amazonCaptcha(driver);
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys(kelime+ Keys.ENTER);
+
     }
     @DataProvider(name="aranacakKelime")
     public Object[][] getData2(){

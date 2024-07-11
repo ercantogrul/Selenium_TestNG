@@ -14,6 +14,7 @@ public class C30_UseListenersClassViaRunConfiguration {
         Assert.assertEquals(1,1);
         int i = (int) context.getAttribute("data");
         System.out.println("i = " + i);
+
     }
 
     @Test
@@ -25,6 +26,7 @@ public class C30_UseListenersClassViaRunConfiguration {
     public void failedTestTimeout() throws InterruptedException {
         Thread.sleep(2000);
         System.out.println("I'm inside the failedTestTimeout test method");
+
     }
 
     @Test

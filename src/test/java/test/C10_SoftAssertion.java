@@ -44,5 +44,6 @@ public class C10_SoftAssertion extends TestBase {
 
         sa.assertAll();  // en sonda bu satiri yazmak zorundayiz ki sofr assertionlar calissin
 
+
     }
 }
