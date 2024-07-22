@@ -64,6 +64,7 @@ public class C01_Annotations {
         System.out.println("before suit");
     }
 
+
     @AfterSuite
     public void afterSuite() {
         System.out.println("after suit");

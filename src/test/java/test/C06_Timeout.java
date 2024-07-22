@@ -13,6 +13,7 @@ public class C06_Timeout {
         System.out.println("test bitti,test passed, test timed out");
     }
 
+
     @Test(timeOut = 400)
     void test2() throws InterruptedException {
         System.out.println("test basliyor");

@@ -25,6 +25,7 @@ public class C08_AssertionInfo {
 
     @Test
     public void soft(){
+
         //soft assertionlar
 
         SoftAssert sa = new SoftAssert();  // soft assertion icin önce O class dan bir obje üretilir

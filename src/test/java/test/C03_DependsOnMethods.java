@@ -16,6 +16,7 @@ public class C03_DependsOnMethods {
     @Test(dependsOnMethods = {"loginTest"})
     public void homepageTest(){System.out.println("homepage tested successfully");}
 
+
     @Test(dependsOnMethods = {"loginTest","homepageTest"})
     public void smokeTest(){
         System.out.println("smoke tests were done successfully");

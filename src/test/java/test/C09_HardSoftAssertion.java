@@ -20,6 +20,7 @@ public class C09_HardSoftAssertion extends TestBase {
 
     @Test
     public void testLoginHard(){
+
         //Open page https://practicetestautomation.com/practice-test-login/
         driver.get("https://practicetestautomation.com/practice-test-login/");
 

@@ -18,6 +18,7 @@ public class C02_Priority {
     @Test(priority = 3)
     void test2(){System.out.println("test2 run");}
 
+
     @Test(priority = 7)
     void test3(){System.out.println("test3 run");}
 

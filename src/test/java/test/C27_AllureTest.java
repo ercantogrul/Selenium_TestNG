@@ -26,6 +26,7 @@ public class C27_AllureTest {
     public void test1(){
         Assert.assertTrue(true);
         System.out.println("testcase1 dogru sekilde calismistir");
+
     }
 
     @Severity(SeverityLevel.NORMAL)  //
@@ -33,6 +34,7 @@ public class C27_AllureTest {
     public void test2(){// hata oldugunda nasil rapor veriyor
         Assert.assertTrue(false);
         System.out.println("testcase2 dogru sekilde calismamistir");
+
     }
 
     @Description("bu test methodu skip edilecek")

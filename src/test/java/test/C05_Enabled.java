@@ -28,6 +28,7 @@ public class C05_Enabled {
     void test6(){System.out.println("test6");}
     //////
 
+
     @Test(priority = 3000)
     void b(){
         System.out.println("b");
